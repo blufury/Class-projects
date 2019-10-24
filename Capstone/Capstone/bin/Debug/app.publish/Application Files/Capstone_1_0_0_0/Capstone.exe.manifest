@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Capstone.exe" version="1.0.0.0" publicKeyToken="7c6d617f1f45755c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Capstone" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Capstone.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Capstone.exe" size="26584">
+      <assemblyIdentity name="Capstone" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CHa9FCzPX0BpZaH/i6CQ0EmUofdk4Cb1y1QJaEbqaps=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Capstone.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AVILA\bennett476035" issuerKeyHash="6741a50a08fea34e7d64636a4c0ab529de5a554c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>722hijEP5zW9gMN6aDZ/THwshhIwg4PsBUTAkND5EoY=</DigestValue></Reference></SignedInfo><SignatureValue>Hgx1QdHmVt6pvs8Ch4CnmzROdnWwYXy08MNh2Zf/tjBSi3+f3Dlm6UBTmDIKb0R1hiI9SwVb6x+ZjCkuR5EcZ0v/wVfQHhotQhrEONTIsnizxndvh+URN6fn0OpfjO3U/J9Z4StveY5THqO+9kHx8Ed+X8DA/XJRpq6h5VBn/VQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>20VWQ/FNmZ1NZxl0at4/5rFdzx33OqaboXk6xJILSYpqxVn02zMGEDIsj6fZtLPFKxdmCQHnu5j6vtsKiP3Lsz4hXAcEHw2ShcvNlE//EW/f9gWxCDm/Ppd+6MBPbQqqRTFxsDQxYuwK1nOzqr+W+m+BG9UdPjvjAppVph26Ap0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8612f9d090c04405ec83833012862c7c4c7f36687ac380bd35e70f318aa16def" Description="" Url=""><as:assemblyIdentity name="Capstone.exe" version="1.0.0.0" publicKeyToken="7c6d617f1f45755c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AVILA\bennett476035</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bj+mOIew5svKzkCuLehi/Np2vQnW988JUS2BXZK7nqM=</DigestValue></Reference></SignedInfo><SignatureValue>YqVByCOUR7ueDcvNq4bMtkGkpa1dKwzaPyDzfOB/ltFzg5QS+YU4OQDR42/BtsVWyb+QtYqRD+ja0OPYuTIe5KepLlyyCBEBPovZ1t23pllbcpo/DMzWMCLKwsGiDNWWA/YjR6Vh+p3T7sk4u+E6KVzOCgoExv5b2/MUMbegRd4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>20VWQ/FNmZ1NZxl0at4/5rFdzx33OqaboXk6xJILSYpqxVn02zMGEDIsj6fZtLPFKxdmCQHnu5j6vtsKiP3Lsz4hXAcEHw2ShcvNlE//EW/f9gWxCDm/Ppd+6MBPbQqqRTFxsDQxYuwK1nOzqr+W+m+BG9UdPjvjAppVph26Ap0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQEt9YAilz6rZG3nSCk3YhvzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAQQBWAEkATABBAFwAYgBlAG4AbgBlAHQAdAA0ADcANgAwADMANTAeFw0xOTEwMjMyMDU0MjBaFw0yMDEwMjMwMjU0MjBaMDExLzAtBgNVBAMeJgBBAFYASQBMAEEAXABiAGUAbgBuAGUAdAB0ADQANwA2ADAAMwA1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbRVZD8U2ZnU1nGXRq3j/msV3PHfc6ppuheTrEkgtJimrFWfTbMwYQMiyPp9m0s8UrF2YJAee7mPq+2wqI/cuzPiFcBwQfDZKFy82UT/8Rb9/2BbEIOb8+l37owE9tCqpFMXGwNDFi7ArWc7Oqv5b6b4Eb1R0+O+MCmlWmHboCnQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFzkTqEUONmx8vBACN9zENyWjFeWIcT7G5fJIte8Fnmcvbi6Fv+KHMOeDYbUGBO6e9nVnOhwfniWMR7UEvKrY78G+P/+q+a3L+pixZjC+KF+BM/v33fvyegR8hDVCc10a1z9qs1qr3zyMs7gygGqzx/LcEjKV7MoGR5z75sTW1gw</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
